@@ -1,0 +1,66 @@
+/* 将页面中标签默认样式去掉 */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,dt,li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	color: #666;
+	font-size: 12px;
+	font-family: "宋体";
+}
+
+a {
+	text-decoration: none;
+	color: #666;	
+}
+
+a:hover {
+	color: #ca0000;
+}
+
+
+img,input {
+	vertical-align: middle;
+	border: 0 none;
+	outline-style: none;
+	padding: 0;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+/* 版心:; */
+.w {
+	width: 1195px;
+	margin: 0 auto;
+}
+
+/* 登录版心 */
+.jd_w {
+	width: 990px;
+	margin: 0 auto;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+

@@ -1,0 +1,275 @@
+/*
+* @Author: dhl
+* @Date:   2019-01-18 09:07:42
+* @Last Modified by:   dhl
+* @Last Modified time: 2019-01-18 15:44:40
+*/
+
+
+/* 大背景图片 */
+.jd_bg {
+	width: 100%;
+	height: 470px;
+	background: url("../uploads/jd_bg.png") no-repeat top center;
+	display: block;
+	/* 让元素脱标不占位置 */
+	position: absolute;
+}
+
+
+/* 首页主体大盒子 */
+.m_body {
+	/* 提高层级 */
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+/* 第一部分 */
+.m_banner {
+	 width: 100%;
+	 height: 455px;
+	 margin-top: 10px;
+}
+
+/* 左侧广告图片 */
+.l_banner {
+	width: 721px;
+	height: 455px;
+	margin-left: 215px;
+	position: relative;
+}
+
+/* 页码部分 */
+.page_number {
+	 width: 95px;
+	 height: 17px;
+	 position: absolute;
+	 left: 50%;
+	 bottom: 10px;
+	 margin-left: -45px;
+}
+.page_number span {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: block;
+	margin-right: 2px;
+}
+
+
+/* 右侧广告 */
+.r_banner {
+	width: 250px;
+	height: 455px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+
+.top_newsList {
+	 height: 159px;
+	 border-bottom: 1px solid #ccc;
+}
+
+.top_newsList h4 {
+	height: 31px;
+	border-bottom: 1px dashed #ccc;
+	line-height: 31px;
+	padding: 0 10px;
+}
+
+.top_newsList ul {
+	 margin: 10px 16px 0px;
+}
+
+.top_newsList li {
+	height: 24px;
+}
+
+
+/* 服务列表 */
+.service_list {
+	height: 212px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.service_list ul {
+	width: 255px;
+
+}
+
+.service_list li {
+	width: 62px;
+	height: 69px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	float: left;
+}
+
+.service_list  a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding-top: 48px;
+	box-sizing: border-box;
+	position: relative;
+}
+.service_list i {
+	 width: 24px;
+	 height: 26px;
+	 display: block;
+	 background: url("../img/icons.png") no-repeat -17px  -16px;
+	 position: absolute;
+	 left: 50%;
+	 margin-left: -12px;
+	 top: 10px;
+}
+/* 底部广告 */
+.bott_banner {
+	margin-top: 7px;
+}
+
+
+
+/* 第二部分 */
+.tj {
+	width: 100%;
+	height: 163px;
+	margin: 20px auto;
+	background-color: #ebebeb;
+}
+
+.tj_title {
+	width: 200px;
+	height: 100%;
+	background-color: #604f4d;
+	text-align: center;
+}
+.tj_title img {
+	margin-top: 20px;
+}
+.tj_title  h4 {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.tj li {
+	border-right: 1px solid #ccc;
+	margin-top: 12px;
+}
+
+.tj li:last-child {
+	border-right: 0 none;
+}
+
+
+/* 商品展示 */
+.product_show {
+	width: 100%;
+	margin: 10px auto;
+}
+
+.show_title {
+	height: 26px;
+	border-bottom: 2px solid red;
+}
+
+.show_title li {
+	 border-right: 1px solid #ccc;
+	 padding: 0 10px;
+}
+
+.show_title li:last-child {
+	border-right: 0 none;
+	padding-right: 0;
+}
+
+
+/* 商品展示列表 */
+.show_list {
+	width: 100%;
+	height: 360px;
+}
+
+.item {
+	width: 187px;
+	height: 360px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	margin-right: 18px;
+}
+
+.item li {
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	margin-right: 8px;
+
+}
+
+.item  img {
+	margin-top: 20px;
+}
+.public {
+	border-right: 1px solid #ccc;
+}
+.public a{
+	display: block;
+}
+.public a:nth-child(1) {
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+/* 京东页面部分 */
+.jd_box {
+	width: 1270px;
+	height: 590px;
+	margin: 20px auto;
+	background: url("../uploads/bg.png") no-repeat;
+	position: relative;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.jd_box .link  {
+	width: 1150px;
+	height: 156px;
+	display: block;
+	position: absolute;
+	left: 60px;
+	top: 10px;
+}
+
+
+.ul_list {
+	 width: 1000px;
+	 height: 430px;
+	 margin-top: 150px;
+	 margin-left: 30px;
+}
+
+.ul_list li {
+	float: left;
+	width: 190px;
+	height: 210px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.right_list {
+	margin-right: 30px;
+	margin-top: 150px;
+}
+.right_list img{
+	display: block;
+	margin-bottom: 10px;
+}
